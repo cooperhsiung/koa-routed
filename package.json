@@ -1,0 +1,32 @@
+{
+  "name": "koa-routed",
+  "version": "1.0.0",
+  "description": "Route decorator for koa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperhsiung/koa-routed.git"
+  },
+  "keywords": [
+    "route",
+    "decorator",
+    "koa"
+  ],
+  "author": "Cooper Hsiung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cooperhsiung/koa-routed/issues"
+  },
+  "homepage": "https://github.com/cooperhsiung/koa-routed#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "path-to-regexp": "^2.1.0"
+  }
+}

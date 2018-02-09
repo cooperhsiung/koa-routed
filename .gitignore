@@ -1,0 +1,25 @@
+#intellij config
+.idea
+
+#npm dependency
+node_modules
+
+#bower dependency
+public/lib
+
+#jscoverage tmp file
+lib-cov
+
+#npm log
+npm-debug.log
+
+package-lock.json
+
+build
+
+dist
+
+#jest unit test coverage
+coverage
+
+#config.js
