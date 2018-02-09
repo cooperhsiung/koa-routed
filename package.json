@@ -1,9 +1,10 @@
 {
   "name": "koa-routed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Route decorator for koa.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
