@@ -8,11 +8,21 @@ babel is required.
  - babel-preset-es2017
  - babel-plugin-transform-decorators-legacy
  
- 
-
 ```bash
-$ npm install koa-route -S
+$ npm i koa-route -S
 ```
+
+## run
+
+```js
+require('babel-register');
+require('./app.js');
+```
+or
+```bash
+npm run build & npm start
+```
+
 
 ## Example
 
@@ -32,7 +42,7 @@ const person = {
     @routed('/hi', {method:'post'})
     sayHi(ctx, next) {
         ctx.body = 'Hi!'
-    },
+    }
 };
 
 app.use(person.sayHello);
