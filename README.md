@@ -9,10 +9,10 @@ babel is required.
  - babel-plugin-transform-decorators-legacy
  
 ```bash
-$ npm i koa-route -S
+$ npm i koa-routed -S
 ```
 
-## run
+## Run
 
 ```js
 require('babel-register');
